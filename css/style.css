@@ -1,0 +1,548 @@
+/* start main rule  */
+
+body {
+    background-color: #333;
+}
+
+.countaner {
+    width: 1170px;
+    margin: auto;
+    color: #777;
+}
+
+p {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #555;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* end main rule  */
+
+/* start header  */
+
+.slider {
+    background-color: #e1e5e6;
+    height: 500px;
+    overflow: hidden;
+    background-image: url(../img/169digitaltransformation-1170x600.jpg);
+    background-size: cover;
+}
+
+.slider .slider-intro {
+    padding: 0%;
+    height: 500px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.slider .slider-intro h1 {
+    margin: auto;
+    width: fit-content;
+    color: #ffff;
+    border-top: solid #fff 4px;
+    border-bottom: solid #fff 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.slider .slider-intro button {
+    background: none;
+    color: #fff;
+    border: solid #fff 2px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header .nav {
+    background-color: #252F31;
+    overflow: hidden;
+}
+
+.header .nav img {
+    margin-right: 30px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.header .nav h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 10px;
+}
+
+.header .nav h2 span {
+    color: #38CF7A;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding-left: 0%;
+    color: #ffffff;
+    overflow: hidden;
+    float: right;
+}
+
+.header .nav ul li {
+    float: left;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav ul li .act a .act {
+    color: #38CF7A;
+}
+
+.header .nav ul li a:hover {
+    color: #38CF7A;
+}
+
+/* end header  */
+
+/* start feature */
+
+.feature {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.feature .feat {
+    float: left;
+    width: 31%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.feature .feat h1 {
+    padding-left: 10px;
+}
+
+.feature .feat p {
+    color: #777;
+    line-height: 25px;
+    text-align: justify;
+    border-left: solid #666 2px;
+    padding-left: 6px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+/* end feature */
+
+/* start about me  */
+
+.about {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about .my-img {
+    overflow: hidden;
+    float: left;
+    width: 40%;
+}
+
+.about .my-img img {
+    height: 530px;
+    object-fit: cover;
+}
+
+.about .info {
+    float: left;
+    width: 60%;
+}
+
+.about .info p {
+    text-align: justify;
+    color: #444;
+    font-size: 17px;
+}
+
+.about .info .about-frist {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.about .info .about-frist h1 {
+    color: #444;
+}
+
+.about .info h2 {
+    text-transform: capitalize;
+    color: #444;
+}
+
+.about .info .about-frist p:last-of-type {
+    margin-top: 30px;
+}
+
+.about .info .about-secand {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.about .info .about-secand div {
+    float: left;
+    width: 50%;
+}
+
+.about .info .about-secand div h2 {
+    text-transform: capitalize;
+    color: #444;
+}
+
+.about .info .about-secand div .text {
+    float: left;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+.about .info .about-secand div .img {
+    float: left;
+    width: 15%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.about .info .about-secand div .img img {
+    width: 30px;
+}
+
+/* end about me  */
+
+hr {
+    background-color: #ffffff;
+}
+
+/* start my skills */
+
+.my-skills {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.my-skills .my-skills-first, .my-skills .my-skills-secand {
+    width: 50%;
+    float: left;
+}
+
+.my-skills .my-skills-first p {
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.my-skills .my-skills-first button {
+    color: #37D280;
+    background: none;
+    padding: 10px;
+    border: solid #37D280 3px;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.my-skills .my-skills-secand div {
+    background-color: #ccc;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.my-skills .my-skills-secand h3 {
+    margin-top: 40px;
+}
+
+.my-skills .my-skills-secand div>span {
+    background-color: #37D280;
+    height: 25px;
+    width: 83%;
+    display: inline-block;
+}
+
+.my-skills .my-skills-secand div span span {
+    float: right;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* end my skills */
+
+/* start resume */
+
+.resume {
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.resume h1, .resume p, .resume button {
+    align-items: center;
+}
+
+.resume h1 {
+    margin-top: 30px;
+}
+
+.resume p {
+    padding: 15px 0 20px 0;
+    margin: auto;
+    width: 80%;
+}
+
+.resume button {
+    color: #37D280;
+    background: none;
+    padding: 10px;
+    border: solid #37D280 3px;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* end resume */
+
+/* start education */
+
+.educ {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.educ .educ-first, .educ .educ-secand {
+    width: 50%;
+    float: left;
+}
+
+.educ .educ-first p:first-of-type {
+    margin-top: 50px;
+}
+
+.educ .educ-first p {
+    margin-right: 40px;
+    text-align: justify;
+    color: #777;
+}
+
+.educ .educ-secand :first-child {
+    margin-top: 100px;
+}
+
+.educ .educ-secand button {
+    background-color: #37D280;
+    color: #FFFFFF;
+    border: solid #37D280 3px;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+/* end my education */
+
+.line {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    /* padding-top: 10px; padding-bottom: 10px;*/
+}
+
+/* start exp */
+
+.exp {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.exp .exp-first, .exp .exp-secand {
+    width: 50%;
+    float: left;
+}
+
+.exp .exp-first p:first-of-type {
+    margin-top: 40px;
+}
+
+.exp .exp-secand :first-child {
+    margin-top: 80px;
+}
+
+.exp .exp-secand button {
+    background-color: #37D280;
+    color: #FFFFFF;
+    border: solid #37D280 3px;
+    padding: 5px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+/* end my exp */
+
+/* start resume */
+
+.comment {
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.comment .h1, .comment p, .comment button {
+    align-items: center;
+}
+
+/* end resume */
+
+/* start portofolio */
+
+.port {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.port .port-img div {
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+
+.port .port-img img {
+    width: 100%;
+
+}
+
+
+/* end portofokio */
+
+/* start contant  */
+
+.con {
+    background-color: #4B5557;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.con .con-one {
+    width: 50%;
+    float: left;
+   
+}
+
+.con .con-form {
+    width: 50%;
+    float: left;
+}
+
+.con .con-one p {
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.con .con-one h2 {
+    color: #FFFFFF;
+}
+.con .con-form input {
+    display: block;
+    width: 100%;
+    background-color:#999;
+    min-height: 50px;
+    margin-bottom: 20px;
+
+}
+.con .con-form input:last-of-type {
+  min-height: 300px;
+
+}
+.con .con-form label {
+    color: #ccc;
+text-transform: capitalize;
+padding-top: 10px;
+padding-bottom: 10px;
+display: inline-block;
+font-size: 20px;
+}
+
+/* end contant  */
+
+/* start fotter  */
+
+.fotter {
+    background-color: #000000;
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.fotter p {
+    color: #FFFFFF;
+    margin: auto;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+.fotter ul {
+    list-style: none;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fotter ul li {
+    padding: 2px;
+}
+
+.fotter .fotter-img img {
+    width: 30px;
+    filter: opacity(50%);
+}
+
+/* end fotter  */
